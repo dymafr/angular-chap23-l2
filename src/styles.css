@@ -1,4 +1,6 @@
 /* Add application styles & imports to this file! */
+/* UNiQUEMENT pour l'exemple exécutable : */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html,
 body {
