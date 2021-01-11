@@ -1,13 +1,11 @@
 <form [formGroup]="form" class="container">
 	<div>
 		<mat-form-field>
-			<input type="text"  formControlName="input">
+			<input matInput type="text"  formControlName="input">
     </mat-form-field>
 	</div>
 	<div>
-		<label>Etes-vous majeur ?
-      <input formControlName="majeur" type="checkbox" />
-    </label>
+		<mat-checkbox formControlName="majeur">Majeur</mat-checkbox>
 	</div>
 	<div>
 		<label>Male
